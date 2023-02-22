@@ -7,7 +7,7 @@ App to generate monthly Spotify playlists from your liked songs.
 
 2. The program can not overwrite objects. So, in principle, it should not be able to ‘mess up’ or delete your data. I’m still very much an amateur, so do expect bugs. 
 
-3. To run, make a new environment and install the requirements. Then in your terminal, navigate to the directory with this .py file, and give the command 'streamlit run SpotMyMonth.py'. A new tab will be launched in your browser with the app interface. The app works better in 'dark' mode.
+3. To run, navigate to the directory where these files are downloaded in your terminal. Make a new environment and install the requirements using 'pip install -r requirements.txt'. In principle, the new environment isn't necessary, but just a book-keeping choice. To run the .py file, give the command 'streamlit run SpotMyMonth.py'. A new tab will be launched in your browser with the app interface. The app works better in 'dark' mode.
 
 3. You will be asked to enter the ‘start’ and ‘end’ month, as well as your username. The program selects months INCLUDING the end month. So, for instance, if you want to make a playlist only for Feb23, you would enter - Feb/2023 to Feb/2023. 
 
